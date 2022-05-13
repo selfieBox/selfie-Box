@@ -291,19 +291,29 @@ button:hover::after, button:focus::after {
     align-items: center;
     margin: 1rem;
     width: 320px;
-    height: 450px;
+    height: 600px;
     background-color: #F2F2F2;
     border-radius: 5px;
 }
+
 .imagenCard {
-    max-width: 320px;
+    width: 320px;
     max-height: 200px;
     object-fit: cover;
     border-radius: 5px 5px 0px 0px;
 }
+
+.tituloCard{
+    font-size: 2em;
+    color: #151948;
+}
+
 .parrafoCard {
     padding: 2rem;
     text-align: center;
+    font-size: 24px;
+    color: #151948;
+    font-weight: 300;
 }
 .cardCentral {
     display: flex;
@@ -311,7 +321,7 @@ button:hover::after, button:focus::after {
     align-items: center;
     margin: 1rem;
     width: 320px;
-    height: 450px;
+    height: 600px;
     background-color: #F2F2F2;
     border-radius: 5px;
 }
@@ -401,16 +411,14 @@ button:hover::after, button:focus::after {
 
 .tituloNos {
     font-weight: 400;
-    font-size: 45px;
-    margin: 0px 0px 28px;
-    line-height: 50px;
-    letter-spacing: -1px;
+    font-size: 64px;
+    text-align: center;
 }
+
 .parrafo {
-    font-size: 16px;
-    line-height: 25px;
-    font-weight: 400;
-    letter-spacing: 0.3px
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
 }
 /*Resolucion Tablet 768p*/
 @media (max-width: 768px) {
@@ -486,7 +494,7 @@ button:hover::after, button:focus::after {
         width: 300px;
     }    
     .imagenCard {
-        width: 350px;
+        max-width: 320px;
     }
     .cardCentral {
         display: none;
@@ -573,7 +581,7 @@ footer {
         width: 300px;
     }    
     .imagenCard {
-        width: 350px;
+        max-width: 320px;
     }
     
     .cardCentral {
